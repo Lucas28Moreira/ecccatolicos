@@ -1,0 +1,110 @@
+
+body{
+    background-image: url('imagens-home/brasao.png');    
+}
+
+.div-master{
+    background-color: rgba(12, 0, 117, 0.877);
+    border-style:dotted;
+
+}
+
+#titulo_do_corpo {
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+}
+
+#corpo_da_pagina {
+    padding: 15px;
+}
+
+form{
+    width: 100%;
+    padding: 0px;
+}
+
+.single-input{
+    position: relative;
+    margin: 20px;
+    padding: 3px;
+}
+
+.single-input label{
+    position: absolute;
+    bottom: 15px;
+    color: rgb(200, 255, 0);
+    font-style:italic;
+    cursor: text;
+    transition: 0.5s ease-in-out;
+    font-size: 120%;
+}
+
+.input{
+    background: none;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-bottom: 3px solid hwb(248 13% 12%);
+    outline: 0;
+    font-size: 20px;
+    color: rgb(80,80,80);
+    transition: 0.5s ease-in-out;
+}
+
+.input:focus,
+.input:valid{
+    border-bottom: 4px solid hwb(248 13% 12%);
+}
+.input:focus ~ label,
+.input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 20px;
+    color: hwb(0 99% 1%);
+}
+
+.listagem-paroquia{
+    margin-top: 5px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.listagem-paroquia2{
+    padding: 10px 0;
+    left: 40%;
+    text-align: left;
+    position: absolute;
+}
+
+.cadastro {
+    margin-top: 50px;
+    padding: 10px 0;
+    text-align: center;
+    color: yellow;
+}
+
+#butao_acesso{
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#butao_paroquia{
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+footer{
+    bottom: 0;
+    background-color: #3333338e;
+    font-size: 12pt;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0;
+}
